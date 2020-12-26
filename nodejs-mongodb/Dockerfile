@@ -1,5 +1,4 @@
 FROM ubuntu
-MAINTAINER Kimbro Staken 
 
 RUN apt-get install -y python-software-properties python python-setuptools ruby rubygems
 RUN add-apt-repository ppa:chris-lea/node.js
